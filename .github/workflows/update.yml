@@ -2,8 +2,8 @@ name: Update Major Version Tag
 
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+       - master
 
 jobs:
   update-majorver:
